@@ -20,6 +20,7 @@ function(runtime) {
      */
     function pageInit(scriptContext) {
         try{
+            //Changes made in sandbox
         var userObj = runtime.getCurrentUser();
         alert("User details: "+userObj)
         }catch(e){
