@@ -1,0 +1,24 @@
+<scheduledscript scriptid="customscript_test4_sch_sand">
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>Test4 ScheduleScript Sandbox</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <scriptfile>[/SuiteScripts/Test4_Sch_Sandbox.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_test4_sch">
+      <isdeployed>T</isdeployed>
+      <loglevel>DEBUG</loglevel>
+      <status>NOTSCHEDULED</status>
+      <title>Testing</title>
+      <recurrence>
+        <single>
+          <repeat></repeat>
+          <startdate>2022-12-13</startdate>
+          <starttime>12:30:00Z</starttime>
+        </single>
+      </recurrence>
+    </scriptdeployment>
+  </scriptdeployments>
+</scheduledscript>
